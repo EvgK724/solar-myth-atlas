@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10131e">
+  <meta name="description" content="Имена Солнечной системы на русском и английском. Исследуйте орбиты планет и спутников, слушайте английские названия и вспоминайте связанные с ними мифы.">
+  <title>Орбиты · Мифология Солнечной системы</title>
+  <link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="manifest" href="app.webmanifest"><link rel="stylesheet" href="styles.css">
+  <script defer src="bodies.js"></script><script defer src="voices.js"></script>
+  <script defer src="practice.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#content">К содержанию</a>
+<header class="mast">
+  <div class="bar frame">
+    <a class="brand" href="#atlas" aria-label="Орбиты — атлас"><img src="icon-180.png" width="40" height="40" alt=""><span>Орбиты</span></a>
+    <nav aria-label="Разделы атласа">
+      <a id="nav-atlas" href="#atlas" aria-current="page">Атлас</a>
+      <a id="nav-system" href="#body/saturn">Связи</a>
+      <a id="nav-practice" href="#practice">Повторение</a>
+    </nav>
+    <button type="button" id="size" aria-pressed="false" aria-label="Крупный шрифт">Аа</button>
+  </div>
+</header>
+<main class="frame" id="content" tabindex="-1">
+  <section id="atlas" aria-labelledby="atlas-title">
+    <div class="hero">
+      <img class="hero-photo" src="scene.webp" alt="">
+      <div class="hero-text">
+        <p class="eyebrow">Атлас Солнечной системы</p>
+        <h1 id="atlas-title" tabindex="-1">Мифы <em>на орбите</em></h1>
+        <p>На небе у Сатурна есть спутник Рея. В греческом мифе Рея&nbsp;— мать Зевса. Как эти имена оказались рядом?</p>
+        <a class="button primary" href="#body/saturn">Открыть систему Сатурна <span aria-hidden="true">→</span></a>
+      </div>
+      <a class="photo-credit" href="https://science.nasa.gov/resource/jewel-of-the-solar-system/" target="_blank" rel="noopener">Сатурн · Cassini / NASA</a>
+    </div>
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-head"><h2 id="catalog-title">Небесные тела</h2>
+        <label class="search"><span aria-hidden="true">⌕</span><input type="search" id="search" aria-label="Поиск по русскому, английскому или мифологическому имени" placeholder="Имя или герой" autocomplete="off"></label>
+      </div>
+      <div class="filter-head"><div class="switches" id="filters" role="group" aria-label="Класс объектов"></div><span class="count" id="count" role="status"></span></div>
+      <div class="roster" id="roster"></div>
+    </section>
+    <section class="routes-section" aria-labelledby="route-title"><h2 id="route-title">Маршруты по мифам</h2><div class="routes" id="routes"></div></section>
+  </section>
+  <section id="system" hidden aria-labelledby="body-name">
+    <div class="tools"><a href="#atlas">← Атлас</a><label>Открыть объект <select id="chooser" aria-label="Открыть другой объект"></select></label></div>
+    <div class="reading-layout">
+      <div id="profile"></div>
+      <aside aria-label="Орбитальные и тематические связи" id="neighbors"></aside>
+    </div>
+  </section>
+  <section id="practice" hidden aria-labelledby="practice-title">
+    <div class="practice-wrap">
+      <p class="eyebrow">Имена и истории</p><h1 id="practice-title" tabindex="-1">Повторение</h1>
+      <div class="switches" id="practice-modes" role="group" aria-label="Режим повторения"></div>
+      <div class="practice-card" id="practice-card"></div>
+      <p class="muted practice-note" id="practice-note"></p>
+    </div>
+  </section>
+  <noscript>Чтобы открыть карточки и озвучку, включите JavaScript в браузере.</noscript>
+</main>
+<footer><div class="frame foot"><details><summary>Об атласе и снимках</summary>
+  <p>В атласе собраны все восемь планет, избранные спутники и малые тела. В карточках приведены источники имён и версии мифов. Схема показывает, какое тело вокруг какого обращается. Размеры и расстояния на ней условны.</p>
+  <p>Снимок Сатурна получен 10 октября 2013 года. NASA / JPL-Caltech / Space Science Institute. <a href="https://science.nasa.gov/resource/jewel-of-the-solar-system/" target="_blank" rel="noopener">Мозаика «Кассини»</a> · <a href="https://science.nasa.gov/solar-system/planets/" target="_blank" rel="noopener">Изображения планет и сведения NASA</a>.</p>
+  <p>Английские имена читает британский голос Microsoft Ryan. Озвучка сохраняется на устройстве вместе с атласом. Ответы в разделе «Повторение» хранятся на этом устройстве.</p>
+  </details><span id="offline" role="status">Подготовка офлайн-копии…</span></div></footer>
+<div id="notice" role="status" hidden></div>
+</body></html>
