@@ -4,7 +4,7 @@ importScripts('./voices.js');
 
 const scopeURL = new URL(self.registration.scope);
 const cachePrefix = 'solar-myth-atlas:' + encodeURIComponent(scopeURL.pathname) + ':';
-const cacheName = cachePrefix + '2026-11-27.2';
+const cacheName = cachePrefix + '2026-11-27.3';
 const indexURL = new URL('./index.html', scopeURL).href;
 const shell = [
   './index.html', './styles.css', './app.js', './bodies.js', './voices.js',

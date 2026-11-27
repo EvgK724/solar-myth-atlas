@@ -177,8 +177,8 @@
   function sourceLabel(href) {
     const host = new URL(href).hostname.replace(/^www\./,'');
     const domains = {'planetarynames.wr.usgs.gov':'МАС / USGS · каталог названий','theoi.com':'Theoi · античные тексты','bosworthtoller.com':'Bosworth–Toller · древнеанглийский словарь','terminy.info':'Этимологический словарь Фасмера','lpi.usra.edu':'Институт Луны и планет'};
-    if (host === 'iauarchive.eso.org') return 'МАС · история названия';
-    if (host === 'jpl.nasa.gov') return 'NASA / JPL · история открытия';
+    if (host === 'eso.org') return 'Европейская южная обсерватория · история названия';
+    if (href.endsWith('sp-4235.pdf')) return 'NASA · история открытия (PDF)';
     if (/nasa\.gov$/.test(host)) return 'NASA · сведения об объекте';
     if (/iau\.org$/.test(host)) return 'Международный астрономический союз';
     if (/folger\.edu$/.test(host)) return 'Folger Shakespeare Library';

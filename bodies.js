@@ -614,7 +614,7 @@ window.BODIES = [
     "connection": "Церера и Веста находятся в главном поясе между Марсом и Юпитером. У одной богини в ведении урожай, у другой — домашний очаг.",
     "cue": "Сноп колосьев напоминает о Церере, огонь в доме — о Весте.",
     "source": "https://science.nasa.gov/mission/dawn/science/ceres/",
-    "source2": "https://www.jpl.nasa.gov/news/ceres-keeping-well-guarded-secrets-for-215-years/",
+    "source2": "https://www.nasa.gov/wp-content/uploads/2025/07/a-history-of-near-earth-object-research-sp-4235.pdf",
     "also": [
       "vesta",
       "pallas"
@@ -712,7 +712,7 @@ window.BODIES = [
     "connection": "Хаумеа и Макемаке напоминают о двух разных полинезийских традициях. Первая связана с Гавайями, вторая — с Рапа-Нуи.",
     "cue": "Макемаке — Рапа-Нуи. Хаумеа — Гавайи.",
     "source": "https://science.nasa.gov/dwarf-planets/makemake/",
-    "source2": "https://iauarchive.eso.org/news/pressreleases/detail/iau0806/",
+    "source2": "https://www.eso.org/public/news/eso1246/#1",
     "also": [
       "haumea"
     ]
