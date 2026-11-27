@@ -529,7 +529,7 @@ window.BODIES = [
     "connection": "Нептун назван в честь владыки морей. У его спутников встречаются как имена родственников Посейдона, так и имена других обитателей мифического моря.",
     "cue": "Протей выскальзывает из рук, принимая облик льва, змея и даже воды.",
     "source": "https://science.nasa.gov/neptune/moons/proteus/",
-    "source2": "https://original.sacred-texts.com/cla/homer/ody/ody04.htm",
+    "source2": "https://www.theoi.com/Text/HomerOdyssey4.html",
     "also": [
       "triton",
       "nereid"
@@ -614,7 +614,7 @@ window.BODIES = [
     "connection": "Церера и Веста находятся в главном поясе между Марсом и Юпитером. У одной богини в ведении урожай, у другой — домашний очаг.",
     "cue": "Сноп колосьев напоминает о Церере, огонь в доме — о Весте.",
     "source": "https://science.nasa.gov/mission/dawn/science/ceres/",
-    "source2": "https://adsabs.harvard.edu/pdf/2009JAHH...12..240C",
+    "source2": "https://www.jpl.nasa.gov/news/ceres-keeping-well-guarded-secrets-for-215-years/",
     "also": [
       "vesta",
       "pallas"
@@ -712,7 +712,7 @@ window.BODIES = [
     "connection": "Хаумеа и Макемаке напоминают о двух разных полинезийских традициях. Первая связана с Гавайями, вторая — с Рапа-Нуи.",
     "cue": "Макемаке — Рапа-Нуи. Хаумеа — Гавайи.",
     "source": "https://science.nasa.gov/dwarf-planets/makemake/",
-    "source2": "https://www.iau.org/static/archives/releases/pdf/iau0806.pdf",
+    "source2": "https://iauarchive.eso.org/news/pressreleases/detail/iau0806/",
     "also": [
       "haumea"
     ]
